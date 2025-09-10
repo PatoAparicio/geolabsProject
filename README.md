@@ -55,7 +55,12 @@ DB_USERNAME=tu_usuario
 DB_PASSWORD=tu_contraseña
 ```
 
-### 6. Compilar Assets
+### 6. Ejecutar Migraciones
+```bash
+php artisan migrate
+```
+
+### 7. Compilar Assets
 ```bash
 # Para desarrollo
 npm run dev
@@ -64,8 +69,13 @@ npm run dev
 npm run production
 ```
 
-## API Endpoints
+### 8. Ejecutar el Servidor de Desarrollo
+```bash
+# Ejecutar el servidor Laravel
+php artisan serve
 
+
+## API Endpoints
 ### Autenticación
 - `POST /api/login` - Iniciar sesión
 - `POST /api/register` - Registrar usuario
