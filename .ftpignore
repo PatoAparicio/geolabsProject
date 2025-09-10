@@ -1,0 +1,13 @@
+/node_modules
+/vendor
+/storage/*.key
+/.env
+/.git
+/.idea
+/nbproject
+/.DS_Store
+/Thumbs.db
+composer.phar
+composer.lock
+package-lock.json
+yarn.lock
